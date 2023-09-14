@@ -56,7 +56,7 @@ const ButtonWithMarginTop = styled(Button)`
 const textMap = {
     login: '로그인',
     register: '회원가입',
-    guset: '게스트 접속'
+    guset: '게스트 접속',
 };
 
 const AuthForm = ({ type, form, onChange, onSubmit }) => {
@@ -106,7 +106,6 @@ const AuthForm = ({ type, form, onChange, onSubmit }) => {
                     <Link to="/login">로그인</Link>
                 )}
             </Footer>
-            AuthForm {/* 여기에 게스트 접속을 위치시키자 */}
         </AuthFormBlock>
     );
 };
