@@ -28,24 +28,24 @@ const WhiteBox = styled.div`
         font-weight: bold;
         letter-spacing: 2px;
     }
-    box-shadow:  0 0 8px rgba(0, 0, 0, 0.025);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.025);
     padding: 2rem;
     width: 360px;
     background: white;
     border-radius: 2px;
 `;
 
-const AuthTemplate = ({children}) => {
+const AuthTemplate = ({ children }) => {
     return (
-    <AuthTemplateBlock>
-        <WhiteBox>
-            <div className='logo-area'>
-                <Link to='/'>XXX</Link>
-            </div>
-        {children}
-        </WhiteBox>
-    </AuthTemplateBlock>
-    )
+        <AuthTemplateBlock>
+            <WhiteBox>
+                <div className="logo-area">
+                    <Link to="/">(주)HY상사</Link>
+                </div>
+                {children}
+            </WhiteBox>
+        </AuthTemplateBlock>
+    );
 };
 
 export default AuthTemplate;

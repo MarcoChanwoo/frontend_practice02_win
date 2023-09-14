@@ -105,6 +105,8 @@ const AuthForm = ({ type, form, onChange, onSubmit }) => {
                 ) : (
                     <Link to="/login">로그인</Link>
                 )}
+                <br />
+                <Link to="/guest">게스트 입장</Link>
             </Footer>
         </AuthFormBlock>
     );

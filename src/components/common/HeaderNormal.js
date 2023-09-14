@@ -1,4 +1,4 @@
-// 첫화면 로그인 버튼
+// 로그인 이후 일반 화면에서의 헤더
 import styled from 'styled-components';
 import Responsive from './Responsive';
 import Button from './Button';
@@ -24,6 +24,7 @@ const Wrapper = styled(Responsive)`
         font-weight: 800;
         letter-spacing: 2px;
     }
+    // 일반 화면에서는 사실상 필요 없음
     .right {
         display: flex;
         align-items: center;
@@ -37,7 +38,7 @@ const Spacer = styled.div`
     height: 4rem;
 `;
 
-const Header = () => {
+const HeaderNormal = () => {
     return (
         <>
             <HeaderBlock>
@@ -45,10 +46,6 @@ const Header = () => {
                     <Link to="/" className="logo">
                         <div className="logo">(주)HY상사</div>
                     </Link>
-
-                    <div className="right">
-                        <Button to="/login">들어가기</Button>
-                    </div>
                 </Wrapper>
             </HeaderBlock>
             <Spacer /> {/* 헤더의 위치와 겹치지 않게 하기위해 설정 */}
@@ -56,4 +53,4 @@ const Header = () => {
     );
 };
 
-export default Header;
+export default HeaderNormal;

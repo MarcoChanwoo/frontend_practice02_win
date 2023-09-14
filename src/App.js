@@ -4,6 +4,7 @@ import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
 import WritePage from './pages/WritePage';
 import PostPage from './pages/PostPage';
+import GuestPage from './pages/GuestPage';
 
 const App = () => {
     return (
@@ -12,6 +13,7 @@ const App = () => {
             <Route path="/login" element={<LoginPage />} />
             <Route path="/register" element={<RegisterPage />} />
             <Route path="/write" element={<WritePage />} />
+            <Route path="/guest" element={<GuestPage />} />
             <Route path="/:@username">
                 <Route index element={<PostListPage />} />
                 <Route path=":postId" element={<PostPage />} />
