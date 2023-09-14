@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import HeaderNormal from '../components/common/HeaderNormal';
 import field06 from '../img/field06.png';
 import Button from '../components/common/Button';
+import Footer from '../components/common/Footer';
 
 const Totalbox = styled.div`
     text-align: center;
@@ -47,6 +48,7 @@ const WritePage = () => {
                         작성하기
                     </Button>
                 </div>
+                <Footer />
             </div>
         </Totalbox>
     );

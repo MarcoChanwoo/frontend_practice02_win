@@ -3,10 +3,12 @@ import HeaderNormal from '../components/common/HeaderNormal';
 import field01 from '../img/field01.png';
 import field02 from '../img/field02.png';
 import Button from '../components/common/Button';
+import Footer from '../components/common/Footer';
 
 const Totalbox = styled.div`
     font-size: 1.1rem;
     text-align: center;
+    padding-bottom: 8rem;
     .field {
         width: 25rem;
         height: 16rem;
@@ -41,6 +43,7 @@ const GuestPage = ({ onClick }) => {
             <Button className="button" onClick={onClick} to="/write">
                 상담하러 가기
             </Button>
+            <Footer />
         </Totalbox>
     );
 };

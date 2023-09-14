@@ -4,16 +4,17 @@ import Header from '../components/common/Header';
 import field03 from '../img/field03.png';
 import field04 from '../img/field04.png';
 import field05 from '../img/field05.png';
+import Footer from '../components/common/Footer';
 
 const Container = styled.div`
     text-align: center;
+    padding-bottom: 6rem;
     .hello {
-        font-size: 1.6rem;
+        font-size: 1.5rem;
         font-weight: bold;
     }
     .main {
-        margin-top: 3rem;
-        padding-bottom: 2rem;
+        margin-top: 1.5rem;
         font-size: 1.1rem;
     }
     .img {
@@ -43,6 +44,7 @@ const PostListPage = () => {
                 <br />
                 문의 전화(대표자): 010-9019-7XX2
             </div>
+            <Footer />
         </Container>
     );
 };

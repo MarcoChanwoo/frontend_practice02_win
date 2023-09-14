@@ -1,7 +1,6 @@
 // 로그인 이후 일반 화면에서의 헤더
 import styled from 'styled-components';
 import Responsive from './Responsive';
-import Button from './Button';
 import { Link } from '../../../node_modules/react-router-dom/dist/index';
 
 const HeaderBlock = styled.div`
