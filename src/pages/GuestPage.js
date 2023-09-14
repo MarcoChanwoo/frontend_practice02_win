@@ -36,12 +36,11 @@ const GuestPage = ({ onClick }) => {
                 <br />
                 <img className="field" alt="field01" src={field02} />
                 <br />
-                <br />
                 지금 상담해보세요!
                 <br />
             </div>
             <Button className="button" onClick={onClick} to="/write">
-                상담하러 가기
+                상담페이지로
             </Button>
             <Footer />
         </Totalbox>

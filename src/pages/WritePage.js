@@ -25,7 +25,7 @@ const Totalbox = styled.div`
 
 const WritePage = () => {
     const onClick = () => {
-        alert('작성 완료!');
+        alert('작성 완료! 확인 후 연락드리겠습니다.');
     };
     return (
         <Totalbox>

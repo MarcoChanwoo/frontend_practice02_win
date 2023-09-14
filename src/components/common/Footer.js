@@ -35,7 +35,7 @@ const Footer = () => {
                         <div className="info">
                             대표: 정호윤
                             <br />
-                            주소: 서울 마포구
+                            소재지: 서울 마포구
                             <br /> 사업자 등록번호: 00000-000
                         </div>
                     </div>
