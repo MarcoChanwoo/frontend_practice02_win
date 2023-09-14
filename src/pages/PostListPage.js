@@ -1,3 +1,4 @@
+// 메인 페이지
 import styled from 'styled-components';
 import Header from '../components/common/Header';
 import field03 from '../img/field03.png';
@@ -40,7 +41,7 @@ const PostListPage = () => {
                 <br />
                 <img className="img" src={field05} alt="field05" />
                 <br />
-                문의 전화: 02) 123-4567
+                문의 전화(대표자): 010-9019-7XX2
             </div>
         </Container>
     );

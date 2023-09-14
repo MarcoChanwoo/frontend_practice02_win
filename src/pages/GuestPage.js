@@ -4,7 +4,7 @@ import field01 from '../img/field01.png';
 import field02 from '../img/field02.png';
 import Button from '../components/common/Button';
 
-const Whitebox = styled.div`
+const Totalbox = styled.div`
     font-size: 1.1rem;
     text-align: center;
     .field {
@@ -15,11 +15,15 @@ const Whitebox = styled.div`
         margin-top: 1rem;
         margin-bottom: 2rem;
     }
+    .body {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
 `;
 
-const GuestPage = () => {
+const GuestPage = ({ onClick }) => {
     return (
-        <Whitebox>
+        <Totalbox>
             <HeaderNormal />
             <div className="body">
                 전국의 현장 상황을 놓치지않고 보호합니다
@@ -33,9 +37,11 @@ const GuestPage = () => {
                 <br />
                 지금 상담해보세요!
                 <br />
-                <Button className="button">상담하러 가기</Button>
             </div>
-        </Whitebox>
+            <Button className="button" onClick={onClick} to="/write">
+                상담하러 가기
+            </Button>
+        </Totalbox>
     );
 };
 
