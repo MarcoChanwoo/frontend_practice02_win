@@ -1,4 +1,3 @@
-// import AuthForm from "../components/auth/Auth.Form";
 import AuthTemplate from '../components/auth/AuthTemplate';
 import LoginForm from '../containers/auth/LoginForm';
 
