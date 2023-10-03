@@ -45,7 +45,7 @@ const WritePage = () => {
                     />
                     <br />
                     <Button onClick={onClick} to="/">
-                        작성하기
+                        작성하고 남기기
                     </Button>
                 </div>
                 <Footer />
