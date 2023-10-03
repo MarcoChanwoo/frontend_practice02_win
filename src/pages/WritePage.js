@@ -45,7 +45,7 @@ const WritePage = () => {
                     />
                     <br />
                     <Button onClick={onClick} to="/">
-                        작성하고 남기기
+                        작성 후 보내기
                     </Button>
                 </div>
                 <Footer />
