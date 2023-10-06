@@ -1,1 +1,2 @@
 frontend
+- styled-components
